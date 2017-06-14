@@ -1,0 +1,65 @@
+package geradorDeSenha;
+
+import java.util.Scanner;
+
+public class Gerador {
+
+	public static void main(String[] args) {
+		while (true) {
+			switch (digita(menu()).charAt(0)) {
+			case '1':
+				criaNumerica();
+				break;
+			case '2':
+				criaAlfaNum();
+				break;
+			case '3':
+				criaEspecial();
+				break;
+			case '4':
+				System.exit(0);
+
+			}
+
+		}
+
+	}
+
+	private static void criaNumerica() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void criaAlfaNum() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void criaEspecial() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static String digita(String msg) {
+		Scanner e = new Scanner(System.in);
+		System.out.print(msg);
+		return e.nextLine();
+	}
+
+	private static String menu() {
+		String menu = "";
+		menu += "======================================================\n";
+		menu += "  Gerador de senha - v0.1\n";
+		menu += "======================================================\n";
+		menu += " \n";
+		menu += "Qual a complexidade da senha?\n";
+		menu += " \n";
+		menu += " 1 - Somente números\n";
+		menu += " 2 - Alfanumérica\n";
+		menu += " 3 - Alfanumérica com caracteres especiais\n";
+		menu += " 4 - Sair\n";
+		return menu;
+
+	}
+
+}
