@@ -1,0 +1,2 @@
+INDEX VERSION 1.129+P:\Lucia Saccomori\Laboratório de Programação I\.metadata\.plugins\org.eclipse.jdt.core
+2791633308.index

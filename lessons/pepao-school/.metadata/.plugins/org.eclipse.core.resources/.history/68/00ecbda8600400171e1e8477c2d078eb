@@ -1,0 +1,17 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String a = "Olá";
+		
+		System.out.println("Olá JAVA");
+		System.out.println(a);
+		System.out.println(a + " JAVA");
+		System.out.println(5 + 3);
+		System.out.println("5" + "3");
+		
+
+	}
+
+}
