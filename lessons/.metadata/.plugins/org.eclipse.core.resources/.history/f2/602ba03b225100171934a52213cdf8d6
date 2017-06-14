@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+/*Crie uma classe chamada 'Tapete', com atributos: corPrincipal (String), lagura (double) e comprimento(double), todos privados.
+ 
+ */
+public class Tapete {
+	private String corPrincipal;
+	private double lagura;
+	private double comprimento;
+
+	public Tapete() {
+		setCorPrincipal(digita("Cor principal: "));
+		setLagura(Double.parseDouble(digita("Numero:")));
+		setComprimento(Double.parseDouble(digita("Indicador de Corrupção: ")));
+	}
+
+	public String getCorPrincipal() {
+		return corPrincipal;
+	}
+
+	public void setCorPrincipal(String corPrincipal) {
+		this.corPrincipal = corPrincipal;
+	}
+
+	public double getLagura() {
+		return lagura;
+	}
+
+	public void setLagura(double lagura) {
+		this.lagura = lagura;
+	}
+
+	public double getComprimento() {
+		return comprimento;
+	}
+
+	public void setComprimento(double comprimento) {
+		this.comprimento = comprimento;
+	}
+
+	private static String digita(String msg) {
+		Scanner e = new Scanner(System.in);
+		System.out.print(msg);
+		return e.nextLine();
+	}
+
+}

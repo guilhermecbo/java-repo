@@ -1,0 +1,40 @@
+/*Crie uma classe chamada 'Tapete', com atributos: corPrincipal (String), lagura (double) e comprimento(double), todos privados.
+Crie os getters e setters para esta classe. Crie também o método toString.
+Crie uma classe chamada 'Principal' com um array estático chamado vTapetes[], com 10 posições. 
+O método main() deverá estar nesta classe e, apartir dele controlar a digitação do vetor.
+Crie os métodos necessários para digitar os dados e também um método para imprimir o vetor/array vTapetes. 
+ */
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		while (true){
+			switch (digita(menu()).charAt(0)){
+			
+			
+			
+		
+			insereTapete();
+		mostraLista();
+			}
+		}
+	}
+
+	private static void insereTapete() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void mostraLista() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	private static String digita(String msg) {
+		Scanner e = new Scanner(System.in);
+		System.out.print(msg);
+		return e.nextLine();
+	}
+
+}

@@ -1,0 +1,40 @@
+/*Crie uma classe chamada 'Tapete', com atributos: corPrincipal (String), lagura (double) e comprimento(double), todos privados.
+ 
+ */
+public class Tapete {
+	private String corPrincipal;
+	private double lagura;
+	private double comprimento;
+	
+	public Tapete(){
+		
+	}
+
+	public String getCorPrincipal() {
+		return corPrincipal;
+	}
+
+	public void setCorPrincipal(String corPrincipal) {
+		this.corPrincipal = corPrincipal;
+	}
+
+	public double getLagura() {
+		return lagura;
+	}
+
+	public void setLagura(double lagura) {
+		this.lagura = lagura;
+	}
+
+	public double getComprimento() {
+		return comprimento;
+	}
+
+	public void setComprimento(double comprimento) {
+		this.comprimento = comprimento;
+	}
+	
+	
+	
+
+}
